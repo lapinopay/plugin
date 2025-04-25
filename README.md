@@ -1,12 +1,12 @@
-=== LapinoPay - Instant USDC Payment Gateway ===
+=== LapinoPay ===
 Contributors: lapinopay
-Tags: payment gateway, cryptocurrency, instant payment, woocommerce, high-risk merchant
+Tags: payment gateway, cryptocurrency, instant payment, woocommerce
 Requires at least: 5.8
 Tested up to: 6.8
-Stable tag: 1.1.8
+Stable tag: 1.0.0
 Requires PHP: 7.2
 WC requires at least: 5.8
-WC tested up to: 9.6.1
+WC tested up to: 9.7.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
