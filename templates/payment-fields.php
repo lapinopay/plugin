@@ -237,7 +237,7 @@ function lapinopay_get_payment_icon($icon_name, $alt_text)
     }
 
     .lapinopay-security-badge {
-        display: inline-flex;
+        display: none;
         align-items: center;
         gap: 8px;
         padding: 8px 16px;
@@ -248,7 +248,6 @@ function lapinopay_get_payment_icon($icon_name, $alt_text)
         font-weight: 500;
         margin-bottom: 24px;
         width: 98%;
-        justify-content: flex-end;
     }
 
     .lapinopay-security-badge img {
@@ -296,11 +295,11 @@ function lapinopay_get_payment_icon($icon_name, $alt_text)
         gap: 16px;
         margin: 0;
         cursor: pointer;
+        flex-direction: row-reverse;
     }
 
     .lapinopay-payment-method-icon {
-        width: 24px;
-        height: 24px;
+        width: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -478,7 +477,8 @@ function lapinopay_get_payment_icon($icon_name, $alt_text)
 
     <div class="lapinopay-footer">
         Your personal data will be used to process your order, support your experience throughout this website, and for
-        other purposes described in our <a href="#">Privacy policy</a>.
+        other purposes described in our <a target="_blank" href="https://www.lapinopay.com/privacy">Privacy
+            policy</a>.
     </div>
 
     <button type="submit" class="lapinopay-place-order" id="lapinopay-place-order">
