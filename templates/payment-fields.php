@@ -270,7 +270,7 @@ function lapinopay_get_payment_icon($icon_name, $alt_text)
     }
 
     .lapinopay-payment-method-icon {
-        height: 30px;
+        height: 23px;
         display: flex;
         align-items: center;
         justify-content: center;
